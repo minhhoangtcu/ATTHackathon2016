@@ -11,6 +11,9 @@
   "dependencies": {
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
-    "node-base64-image": "^1.0.3"
+    "node-base64-image": "^1.0.3",
+    "node-oxford-emotion": "^1.0.4",
+    "rapidapi-connect": "0.0.2",
+    "request": "^2.79.0"
   }
 }
