@@ -22,3 +22,45 @@ function getLink(data) {
 	}
 
 }
+
+// TEST CODE: WORKING!
+//
+// var link = getLink({
+// 	"topic": "iot-2/type/Phone/id/777-777-7777/evt/frame/fmt/buffer",
+// 	"payload": "see msg.result",
+// 	"deviceId": "777-777-7777",
+// 	"deviceType": "Phone",
+// 	"eventType": "frame",
+// 	"format": "buffer",
+// 	"_msgid": "b98f0583.4670f8",
+// 	"result": {
+// 		"images": [{
+// 			"faces": [{
+// 				"age": {
+// 					"max": 44,
+// 					"min": 35,
+// 					"score": 0.502468
+// 				},
+// 				"face_location": {
+// 					"height": 187,
+// 					"left": 549,
+// 					"top": 916,
+// 					"width": 155
+// 				},
+// 				"gender": {
+// 					"gender": "MALE",
+// 					"score": 0.993307
+// 				},
+// 				"identity": {
+// 					"name": "Barack Obama",
+// 					"score": 0.982014,
+// 					"type_hierarchy": "/people/politicians/democrats/barack obama"
+// 				}
+// 			}],
+// 			"image": "1161019-29-3qumgo.jpg"
+// 		}],
+// 		"images_processed": 1
+// 	}
+// });
+
+// console.log(link);
